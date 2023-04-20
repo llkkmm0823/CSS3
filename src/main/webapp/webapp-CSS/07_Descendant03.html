@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>07_Descendant03.html</title>
+<style type="text/css">
+	/* th{color:red}   : 테이블이 하나이고 하나의 지정테이블의 th에 글자색을 빨강색으로 */
+	#table1>tbody>tr>th{ color:red;}
+	/* > 를 table에 사용할땐, table 테그와 tr 테그사이에 tbody 테그가 생략되어져 있다는것을 항상 감안해서 사용합니다 */
+</style>
+</head>
+<body>
+
+<table border="1" width="300" id="table1">
+	<tr>
+		<th>이름</th>
+		<th>주소</th>
+	</tr>
+	<tr>
+		<td>홍길동</td>
+		<td>서울시 종로구</td>
+	</tr>
+	<tr>
+		<td>이순신</td>
+		<td>서울시 강남구</td>
+	</tr>
+</table>
+
+</body>
+</html>
